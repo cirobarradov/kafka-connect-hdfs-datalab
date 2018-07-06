@@ -10,6 +10,26 @@ Configuration parameters:
 *azblob.storageaccount.connectionstring=<connection string>
 *azblob.containername=<container name>
 
+name=azblob-sink
+connector.class=io.confluent.connect.azblob.AzBlobSinkConnector
+tasks.max=1
+topics=<topic_name>
+
+flush.size=3
+
+storage.class=io.confluent.connect.azblob.storage.AzBlobStorage
+#format.class=io.confluent.connect.azblob.format.avro.AvroFormat
+format.class=io.confluent.connect.azblob.format.json.JsonFormat
+schema.generator.class=io.confluent.connect.storage.hive.schema.DefaultSchemaGenerator
+partitioner.class=io.confluent.connect.storage.partitioner.DefaultPartitioner
+
+schema.compatibility=NONE
+#partition.field.name=
+#partition.duration.ms=
+#path.format=
+#locale=
+#timezone=
+
 
 # Development
 
