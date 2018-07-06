@@ -3,10 +3,6 @@
 *kafka-connect-storage-cloud* is a suite of [Kafka Connectors](http://kafka.apache.org/documentation.html#connect)
 designed to be used to copy data between Kafka and public cloud stores, such as Amazon S3. The currently available connectors are listed below:
 
-## Kafka Connect Sink Connector for Amazon Simple Storage Service (S3)
-
-Documentation for this connector can be found [here](http://docs.confluent.io/current/connect/connect-storage-cloud/kafka-connect-s3/docs/index.html).
-
 ## Kafka Connect Sink Connector for Azure Blob Storage
 
 Configuration parameters:
