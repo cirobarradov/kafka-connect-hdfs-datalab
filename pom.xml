@@ -22,10 +22,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.confluent</groupId>
-    <artifactId>kafka-connect-storage-cloud</artifactId>
+    <artifactId>kafka-connect-hdfs-datalab</artifactId>
     <packaging>pom</packaging>
     <version>3.3.1</version>
-    <name>kafka-connect-storage-cloud</name>
+    <name>kafka-connect-hdfs-datalab</name>
     <organization>
         <name>Confluent, Inc.</name>
         <url>http://confluent.io</url>
